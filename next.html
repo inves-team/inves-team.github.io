@@ -24,8 +24,8 @@
             display: grid;
             grid-template-areas: 
                 "top-left top-right"
-                "button button"
                 "bottom-left bottom-right"
+                "button button"
                 ". bottom-text";
             gap: 20px;
             text-align: center;
@@ -52,6 +52,14 @@
             grid-area: top-left;
         }
 
+        .box-top-right {
+            grid-area: top-right;
+        }
+
+        .box-bottom-left {
+            grid-area: bottom-left;
+        }
+
         .box-bottom-right {
             grid-area: bottom-right;
         }
@@ -65,14 +73,6 @@
             font-size: 14px;
             line-height: 1.6;
             text-align: left;
-        }
-
-        .text-top-right {
-            grid-area: top-right;
-        }
-
-        .text-bottom-left {
-            grid-area: bottom-left;
         }
 
         .text-bottom {
@@ -109,16 +109,16 @@
         <div class="box box-top-left"> 
             <img src="MyGirl.jpg" alt="Image 1"> 
         </div> 
-        <div class="text text-top-right">
-            Haii wanita cantik, wanita baik, wanita kuat, Selamat hari perempuan sedunia ya cantikku 
+        <div class="box box-top-right">
+            <img src="MyGirl2.jpg" alt="Image 2"> 
         </div> 
-        <a href="https://api.whatsapp.com/send?phone=6283119743929&text=Terimakasih%20sayangg%20(isi%20pesan%20mu)" class="button">BALAS</a>
-        <div class="text text-bottom-left">
-            Semoga kita bisa lebih lama lagi bersamanya, kalau perlu sampai menua bersama wkwk, kalau kamu punya masalah bilang ke aku yaa kita lewati masalah kamu bareng" Okeyy Sayangg
+        <div class="box box-bottom-left">
+            <img src="MyGirl3.jpg" alt="Image 3">
         </div> 
         <div class="box box-bottom-right"> 
-            <img src="My-Girl.jpg" alt="Image 2"> 
+            <img src="MyGirl4.jpg" alt="Image 4"> 
         </div> 
+        <a href="https://api.whatsapp.com/send?phone=6283119743929&text=Terimakasih%20sayangg%20(isi%20pesan%20mu)" class="button">BALAS</a>
         <div class="text text-bottom">
             Selamat hari perempuan sedunia ya cantikku 
         </div> 
